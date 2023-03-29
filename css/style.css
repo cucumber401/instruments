@@ -1,0 +1,87 @@
+/* .header-color{
+    background-color: saddlebrown;
+    font-size: 40px;
+} */
+
+header h2{
+    width: 980px;
+    height: 110px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    color: saddlebrown;
+    font-size: 3rem;
+    background-color: tan;
+}
+
+body{
+    width: 1000px;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex ;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-list {
+    list-style: none;
+    margin-right: 50px;
+    color: brown;
+    
+}
+.nav-list a{
+    list-style: none;
+    margin-right: 50px;
+    color: brown;
+    text-decoration: none;  
+}
+.nav-list a:hover{
+    list-style: none;
+    color: darkred; 
+}
+
+
+/* .stringInstrument{
+    list-style-image:url('img/4689284.ico');
+} */
+
+.middleArea{
+    display: flex;
+}
+
+article{
+    flex: 2;
+    min-height: 500px;
+    border-style: double none double double;
+    padding: 2%;
+}
+
+aside{
+    flex: 1;
+    min-height: 500px;
+    border-style: double;
+    padding: 2%; 
+}
+aside h2{
+    text-align: center;
+}
+aside ul{
+    list-style: none;
+}
+aside ul a{
+    margin-right: 5px;
+    color: black; 
+}
+aside ul a:hover{
+    list-style: none;
+    color: darkred; 
+}
+aside li::before{
+    content: url('https://cdn-icons-png.flaticon.com/16/898/898945.png');
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
